@@ -1,7 +1,6 @@
 import tkinter
-print("pour dessiner, déplace ta souris en appuient sur le bouton gauche.")
-print("pour changer de couleur, clique sur une des couleurs")
-print("----------------------------------------------------------------------------------------")
+print("to draw, move your mouse while pressing the left button.")
+print("to change color, click on one of the colors")
 fenêtre = tkinter.Tk()
 canvas = tkinter.Canvas(fenêtre, width=750, height=500, bg="white")
 canvas.pack()
